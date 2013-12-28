@@ -1,0 +1,9 @@
+projects:
+  - name: GoTag
+    description: eTicketing platform
+    url: http://gotag.in
+
+open_source:
+  - name: Rika
+    description: JRuby library to extract content and metadata from various file formats.
+    url: https://github.com/ricn/rika

@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="css/syntax.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+  <!-- Loading Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
-    </head>
-    <body>
+  <!-- Loading Flat UI -->
+  <link href="css/flat-ui.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
+<body class="pull_top">
+  <div class="container-narrow">
+    <div class="masthead">
+      <br>
+      <div class="row-fluid">
+        <div class="span2">
+          <a href="/">
+            <img src="http://www.gravatar.com/avatar/1769c527531015f06295b65102cf7f82.png" class="avatar">
+          </a>
         </div>
+        <div class="span10">
+          <br>
+          <a href="/">
+            <h3>{{ site.name }}</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr>
+  
+    {{ content }}
 
-    </body>
+    <div class="row-fluid">
+      <div class="span12">
+        <h4>Contact me</h4>
+        <p><a href="https://github.com/olliem" target="_blank">Github</a> • 
+          <a href="https://twitter.com/olliemarsh" target="_blank">Twitter</a> •
+          <a href="http://uk.linkedin.com/in/olliemarsh" target="_blank">Linkedin</a> •
+          <a href="mailto: ollie.marshall1@gmail.com">E-mail</a>
+        </p>
+      </div>
+    </div>
+    <hr>
+  
+  </div>
+</body>
 </html>
