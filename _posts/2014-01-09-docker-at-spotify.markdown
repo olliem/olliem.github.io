@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Docker being used at Spotify"
+title:  "Docker at Spotify"
 categories: soa docker
 ---
 
