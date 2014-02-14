@@ -4,6 +4,6 @@ projects:
     url: http://gotag.in
 
 open_source:
-  - name: 
-    description: 
-    url: 
+  - name: Hashtag Mail
+    description: A chrome extension for a better GMail topic based UI
+    url: https://github.com/fmittelstaedt/hashtag-mail
