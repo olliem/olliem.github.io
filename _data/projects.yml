@@ -2,8 +2,14 @@ projects:
   - name: GoTag
     description: eTicketing platform
     url: http://gotag.in
-
+  - name: Rookie Fair
+    description: "Advising on tech, business and product strategy"
+    url: http://rookiefair.com
+  
 open_source:
   - name: Hashtag Mail
     description: A chrome extension for a better GMail topic based UI
     url: https://github.com/fmittelstaedt/hashtag-mail
+  - name: Road Reporter
+    description: "Standard of living report card (Bath:Hacked - Most Completed, Hackers Choice)"
+    url: https://github.com/jackfranklin/banes-hack
